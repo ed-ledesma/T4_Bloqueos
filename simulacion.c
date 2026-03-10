@@ -247,6 +247,7 @@ int main() {
 
         int pid = rand()%P;
 
+        // Simula un request de un proceso
         random_request(pid, request);
 
         if(bankers_request(pid, request))
@@ -278,6 +279,7 @@ int main() {
 
         int pid = rand()%P;
 
+        // Simula un request de un proceso
         random_request(pid, request);
 
         if(circular_request(pid, request))
@@ -308,6 +310,7 @@ int main() {
 
         int pid = rand()%P;
 
+        // Simula un request de un proceso
         random_request(pid, request);
 
         if(ostrich_request(pid, request))
